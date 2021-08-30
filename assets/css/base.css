@@ -1,0 +1,87 @@
+/* Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* End Font Family */
+
+/* Base Css */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif !important;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+h2 {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+h3 {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+h4 {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+h5 {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+h6 {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+a {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+ul li {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style-type: none;
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+/* Become leader Button */
+.become-leader {
+  margin-top: 60px;
+}
+.become-leader a {
+  border: 3px solid red;
+  padding: 15px 25px;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 1s all ease;
+}
+.become-leader a:hover {
+  background: red;
+  color: white;
+}

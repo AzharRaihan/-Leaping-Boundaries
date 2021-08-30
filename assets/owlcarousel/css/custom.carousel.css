@@ -1,0 +1,21 @@
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 10%;
+    font-size: 100px;
+    margin-left: -40px;
+    color: #ffffff;
+}
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    font-size: 100px;
+    margin-right: -40px;
+    color: #ffffff;
+}
+.owl-card{
+    text-align: center;
+}
